@@ -11,6 +11,7 @@
 body {
     width: 100%;
     zoom: 0.75;
+    background-color: hsl(198, 100%, 80%);
 }
 
 table {
@@ -29,7 +30,7 @@ td {
     min-width: 40px;
     max-height: 40px;
     overflow: hidden;
-    background-color: #009fe1;
+    background-color: white;
 }
 
 #main {
@@ -44,6 +45,8 @@ td {
 #l_left {
     float: left;
     width: 30%;
+    background-color: hsl(198, 94%, 69%);
+    margin: 0 auto;
 }
 
 #l_right {
@@ -61,6 +64,7 @@ p.info {
     font-size: 28px;
     font-weight: bold;
     text-align: center;
+    color: rgb(19, 60, 192);
 }
 
 p.info_2 {
@@ -68,6 +72,7 @@ p.info_2 {
     font-weight: bold;
     text-align: center;
     display: inline;
+    color: rgb(19, 60, 192);
 }
 
 #down {
@@ -110,6 +115,7 @@ p.info_2 {
     border: 1px solid black;
     font-size: 28px;
     margin-top: 10px;
+    background-color: white;
 }
 
 #d_info2 {
@@ -120,6 +126,7 @@ p.info_2 {
     border: 1px solid black;
     font-size: 20px;
     margin-top: 5px;
+    background-color: white;
 }
 
 @media only screen and (max-width: 768px) {
