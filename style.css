@@ -1,17 +1,22 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
 }
 
 body {
     width: 100%;
-    height: 100%;
-    overflow: hidden;
+    zoom: 0.75;
 }
 
 table {
     border: 2px solid black;
     border-collapse: collapse;
+    margin: 0 auto;
 }
 
 td {
@@ -21,6 +26,9 @@ td {
     text-align: center;
     font-size: 34px;
     color: red;
+    min-width: 40px;
+    max-height: 40px;
+    overflow: hidden;
 }
 
 #main {
@@ -28,15 +36,14 @@ td {
 }
 
 #left {
-    width: 48%;
-    height: 80%;
-    float: left;
-    margin: 1%;
+    width: 50%;
+    margin: 0 auto;
 }
 
 #l_left {
     float: left;
     width: 30%;
+    margin: 0 auto;
 }
 
 #l_right {
@@ -45,15 +52,24 @@ td {
 }
 
 #right {
-    width: 48%;
-    height: 80%;
-    float: left;
-    margin: 1%;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
 }
 
 p.info {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
+    text-align: center;
+    color: rgb(19, 60, 192);
+}
+
+p.info_2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+    color: rgb(19, 60, 192);
 }
 
 #down {
@@ -72,37 +88,77 @@ p.info {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #4CAF50;
+    background-color: rgb(19, 60, 192);
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .button:hover {
-    background-color: #3e8e41
+    background-color: rgb(59, 91, 196);
 }
 
 .button:active {
-    background-color: #3e8e41;
+    background-color: rgb(19, 60, 192);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
 #d_info {
     margin: 0 auto;
-    margin-top: 20px;
-    width: 40%;
-    height: 40px;
+    width: 80%;
     border: 1px solid black;
     font-size: 28px;
+    margin-top: 10px;
+    background-color: white;
 }
 
 #d_info2 {
     text-align: center;
     margin: 0 auto;
-    margin-top: 20px;
-    width: 40%;
+    width: 80%;
     height: 120px;
     border: 1px solid black;
     font-size: 20px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+        zoom: 0.45;
+    }
+    #main {
+        width: 100%;
+    }
+    #left {
+        width: 100%;
+        height: 40%;
+    }
+    #l_left {
+        float: left;
+        width: 27%;
+        margin-left: 3%;
+    }
+    #l_right {
+        float: left;
+        width: 70%;
+    }
+    #right {
+        text-align: center;
+        margin: 0 auto;
+        height: 40%;
+        width: 100%;
+    }
+    #down {
+        width: 100%;
+        height: 20%;
+        text-align: center;
+    }
 }
