@@ -36,7 +36,7 @@ td {
 }
 
 #left {
-    width: 48%;
+    width: 50%;
     height: 80%;
     float: left;
 }
@@ -53,8 +53,9 @@ td {
 
 #right {
     text-align: center;
+    width: 50%;
+    float: left;
     margin: 0 auto;
-    width: 60%;
 }
 
 p.info {
@@ -136,6 +137,9 @@ p.info {
         float: left;
         width: 70%;
     }
-    #right {}
-    #down {}
+    #right {
+        text-align: center;
+        margin: 0 auto;
+        width: 60%;
+    }
 }
