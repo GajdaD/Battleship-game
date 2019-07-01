@@ -10,7 +10,7 @@
 
 body {
     width: 100%;
-    zoom: 0.9;
+    zoom: 0.75;
 }
 
 table {
@@ -29,6 +29,7 @@ td {
     min-width: 40px;
     max-height: 40px;
     overflow: hidden;
+    background-color: #009fe1;
 }
 
 #main {

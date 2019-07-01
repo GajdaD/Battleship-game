@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Ships = /** @class */ (function () {
+var Ships = /** @class */ (function() {
     function Ships() {
         this.cords_pl = [];
-        this.htmlTable = function () {
+        this.htmlTable = function() {
             var main = document.getElementById('left');
             if (main) {
                 var table = document.createElement("table");
@@ -21,7 +21,7 @@ var Ships = /** @class */ (function () {
         this.htmlTable();
         this.shipsHtml();
     }
-    Ships.prototype.shipsHtml = function () {
+    Ships.prototype.shipsHtml = function() {
         var order = [4, 3, 3, 2, 2, 2, 1, 1, 1, 1];
         var main = document.getElementById('left');
         if (main) {
