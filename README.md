@@ -1,6 +1,6 @@
 # Battleship-game
 
-Play game vs computer in this popular game...
+The popular Battleship game, in which to win, you must destroy all enemy ships controlled by the computer.
 
 ## How to play
 
