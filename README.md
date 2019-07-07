@@ -4,7 +4,7 @@ Play game vs computer in this popular game...
 
 ## How to play
 
-## LIVE
+## Live :
 https://gajdad.github.io/Battleship-game/
 
 ## 
